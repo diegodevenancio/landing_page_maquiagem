@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beleza Vibrante - Maquiagem Luxo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1 class="logo">Beleza Vibrante</h1>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#newsletter">Descontos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Seja a Estrela do Momento!</h2>
+    <p>Transforme sua maquiagem em arte com produtos que realçam sua beleza única.</p>
+    <button class="cta-btn">Veja Nossas Ofertas</button>
+  </section>
+
+  <!-- Produtos em Destaque -->
+  <section id="produtos">
+    <h3>Produtos em Destaque</h3>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="imagens/batom.jpeg" alt="Batom">
+        <h4>Batom Matte Intenso</h4>
+        <p>R$ 29,90</p>
+      </div>
+      <div class="produto">
+        <img src="imagens/base.jpeg" alt="Base líquida">
+        <h4>Base Líquida Perfeita</h4>
+        <p>R$ 59,90</p>
+      </div>
+      <div class="produto">
+        <img src="imagens/paleta.jpeg" alt="Paleta de sombras">
+        <h4>Paleta de Sombras Vibrantes</h4>
+        <p>R$ 89,90</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de Captura -->
+  <section id="newsletter">
+    <h3>Receba Ofertas Exclusivas</h3>
+    <p>Cadastre-se e ganhe 10% de desconto na sua primeira compra!</p>
+    <form id="emailForm">
+      <input type="email" id="email" placeholder="Digite seu e-mail" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <p id="message" class="hidden"></p>
+  </section>
+
+    <!-- Seção de Contato -->
+    <main>
+        <section id="contato">
+          <h2>Entre em Contato Conosco</h2>
+          <p>Tem dúvidas ou quer saber mais sobre nossos produtos? Envie uma mensagem ou fale conosco!</p>
+    
+          <!-- Formulário -->
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="nome">Seu Nome:</label>
+              <input type="text" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Seu E-mail:</label>
+              <input type="email" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Sua Mensagem:</label>
+              <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+    
+          <!-- Informações de Contato -->
+          <div class="contact-info">
+            <h3>Informações de Contato</h3>
+            <p><strong>Telefone:</strong> (11) 9XXXX-XXXX</p>
+            <p><strong>E-mail:</strong> contato@belezavibrante.com</p>
+            <p><strong>Endereço:</strong> Av. da Beleza, XX - São Paulo, SP</p>
+            <p>
+              <strong>Siga-nos:</strong>
+              <a href="#" target="_blank">Instagram</a> | 
+              <a href="#" target="_blank">Facebook</a> | 
+              <a href="#" target="_blank">Twitter</a>
+            </p>
+          </div>
+        </section>
+      </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 - Beleza Vibrante | Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
